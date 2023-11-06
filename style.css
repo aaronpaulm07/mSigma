@@ -1,0 +1,71 @@
+.CourseCard {
+  height: 250px;
+  width: 300px;
+  color: #555;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding-bottom: 10px;
+  margin-left: 3em;
+  margin-bottom: 2em;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  /* display: flex; */
+}
+body {
+  font-family: Rubik, sans-serif;
+}
+.applyNow {
+  color: rgb(27, 117, 187);
+  border: 1px solid rgb(27, 117, 187);
+  background-color: rgba(27, 117, 187, 0.05);
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  width: 150px;
+  /* margin-left: 65px;
+  margin-top: 30px; */
+}
+.container {
+  width: 1000px;
+  height: fit-content;
+  position: absolute;
+  top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  left: 300px;
+}
+.courseHeader {
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: #1b75bb;
+  padding: 15px;
+  padding-top: 30px;
+  /* margin-top: 35px; */
+}
+.CourseCard h3 {
+  color: #1b75bb;
+}
+.twocards {
+  display: flex;
+  margin: 100px;
+}
+.courseName {
+  font-weight: 300;
+  font-size: 14px;
+  color: #555;
+}
+.CardDescription {
+  bottom: 15px;
+  margin: 0px;
+  width: 200px;
+  display: flex;
+  text-align: center;
+  margin-left: 50px;
+  font-size: 14px;
+  color: #999;
+}
+.two {
+  margin-left: 50px;
+}
